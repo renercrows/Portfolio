@@ -7,7 +7,7 @@
 
 ## Built With
 
-- HTML and CSS
+- HTML, CSS, and Flexbox
 
 ## Author
 
