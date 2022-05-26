@@ -1,0 +1,91 @@
+li {
+  display: flex;
+  height: 28px;
+  width: 90px;
+  left: 12px;
+  top: 10px;
+  border-radius: nullpx;
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 28px;
+  letter-spacing: 0em;
+  text-align: center;
+}
+
+.portfolio {
+  padding-left: 0;
+}
+
+.about {
+  margin-left: 5%;
+}
+
+.contact {
+  padding-right: 0;
+  margin-left: 10%;
+}
+
+a { 
+  color: inherit;
+  text-decoration: none;
+}
+
+
+li a:hover {
+    background-color: rgb(109, 171, 207);
+}
+
+
+p {
+  display: flex;
+  height: 164px;
+  width: 327px;
+  left: 24px;
+  top: 314px;
+  margin-top: 58px;
+  border-radius: nullpx;
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 28px;
+  letter-spacing: 0em;
+  text-align: center;
+}
+
+.toolbar {
+  margin-left: 280px;
+  height: 12px;
+  width: 18px;
+  margin-top: -14px;
+  border-radius: 0;
+}
+
+h1 {
+  display: flex;
+  height: 70px;
+  width: 327px;
+  left: 24px;
+  top: 64px;
+  border-radius: nullpx;
+  font-family: Inter;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 52px;
+  letter-spacing: 0em;
+  text-align: center;
+}
+
+.first {
+  margin-top: 150px;
+}
+
+.next {
+  color: rgb(63, 182, 113);
+}
+
+.middle {
+  margin-top: -8px;
+  background-image: url(images/Group35.png);
+  background-repeat: no-repeat;
+}
