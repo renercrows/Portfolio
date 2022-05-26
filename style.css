@@ -9,6 +9,7 @@ li {
   font-size: 20px;
   font-weight: 600;
   line-height: 28px;
+  letter-spacing: 0;
   text-align: center;
 }
 
@@ -31,7 +32,7 @@ a {
 }
 
 li a:hover {
-    background-color: rgb(109, 171, 207);
+  background-color: rgb(109, 171, 207);
 }
 
 p {
