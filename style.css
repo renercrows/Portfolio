@@ -244,23 +244,20 @@ h3 {
   padding: 10px;
   background-position: 20px 10px, 150px 10px;
   margin-right: 8px;
+  color: #36b37e;
 }
 
 .ruby1 {
   background-color: white;
   padding: 10px;
-  margin-right: 8px; 
+  margin-right: 8px;
 }
 
 .html1 {
   background-color: white;
   padding: 10px;
   margin-right: 8px;
-}
-
-.css1 {
-  background-color: white;
-  padding: 10px;
+  color: #36b37e;
 }
 
 .css2 {
@@ -302,7 +299,7 @@ h3 {
   font-weight: 500;
   line-height: 24px;
   letter-spacing: 0.03em;
-} 
+}
 
 .button :hover {
   background-color: #d0d9d4;
@@ -310,8 +307,6 @@ h3 {
 
 .card {
   display: grid;
-  grid-template-columns: 4fr 1fr;
-  grid-template-rows: 100px 100px;
   grid-auto-flow: row;
   grid-gap: 30px 30px;
   font-family: inter, sans-serif;
@@ -322,8 +317,6 @@ h3 {
 
 .card2 {
   display: grid;
-  grid-template-columns: 4fr 1fr;
-  grid-template-rows: 100px 100px;
   grid-auto-flow: row;
   grid-gap: -10px -10px;
   font-family: inter, sans-serif;
@@ -357,7 +350,6 @@ h3 {
   margin-top: 170px;
   margin-bottom: -50px;
   color: #3a4a42;
-  ;
 }
 
 .cardtittle2 {
@@ -368,7 +360,6 @@ h3 {
   margin-top: 120px;
   margin-bottom: -50px;
   color: #344563;
-  ;
 }
 
 .cardtittle3 {
@@ -379,7 +370,6 @@ h3 {
   margin-top: 120px;
   margin-bottom: -50px;
   color: #344563;
-  ;
 }
 
 .cardtittle4 {
@@ -390,7 +380,6 @@ h3 {
   margin-top: 120px;
   margin-bottom: -50px;
   color: #344563;
-  ;
 }
 
 .ul1 {
@@ -456,12 +445,6 @@ h3 {
   color: #36b37e;
 }
 
-.java1 {
-  background-color: white;
-  padding: 10px;
-  color: #36b37e;
-}
-
 .terminal1 {
   width: 55px;
   margin-left: -20px;
@@ -469,13 +452,6 @@ h3 {
   padding: 10px;
   color: #36b37e;
   font-family: init, sans-serif;
-}
-
-
-.html1 {
-  background-color: white;
-  padding: 10px;
-  color: #36b37e;
 }
 
 .css0 {
@@ -544,7 +520,7 @@ h3 {
   margin-left: 90px;
   align-items: center;
   font-family: Inter, sans-serif;
-  font-size: 17px;
+  font-size: 14px;
   font-weight: 500;
   line-height: 24px;
   letter-spacing: 0.03em;
@@ -588,7 +564,7 @@ h3 {
   padding-left: 75px;
   left: 124px;
   top: 24px;
-  border-radius: 0px;
+  border-radius: 0;
 }
 
 .frameworks {
@@ -596,7 +572,7 @@ h3 {
   padding-left: 75px;
   left: 124px;
   top: 24px;
-  border-radius: 0px;
+  border-radius: 0;
 }
 
 .skills {
@@ -604,7 +580,7 @@ h3 {
   padding-left: 75px;
   left: 124px;
   top: 24px;
-  border-radius: 0px;
+  border-radius: 0;
 }
 
 .item2 {
