@@ -1,3 +1,7 @@
+* {
+  font-weight: 700;
+}
+
 .navbar {
   display: flex;
   justify-content: space-between;
@@ -254,6 +258,7 @@ h3 {
   background-position: 20px 10px, 150px 10px;
   margin-right: 8px;
   color: #36b37e;
+  border-radius: 10px;
 }
 
 .ruby1 {
@@ -401,8 +406,21 @@ h3 {
   display: flex;
   width: 100%;
   gap: 5px;
+  margin-left: -10px;
+  margin-right: -55px;
+  font-family: Inter, sans-serif;
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+}
+
+.ul3 {
+  display: flex;
+  width: 100%;
+  gap: 5px;
   margin-left: 5px;
-  margin-right: -40px;
+  margin-right: -55px;
   font-family: Inter, sans-serif;
   font-size: 12px;
   font-weight: 600;
@@ -424,11 +442,12 @@ h3 {
 }
 
 .ruby2 {
-  width: 85px;
-  margin-left: -33px;
+  width: 108px;
+  margin-left: -23px;
   background-color: #ebf0ee;
   padding: 10px;
   color: #3a4a42;
+  border-radius: 10px;
 }
 
 .ruby3 {
@@ -437,6 +456,7 @@ h3 {
   background-color: white;
   padding: 10px;
   color: #36b37e;
+  border-radius: 10px;
 }
 
 .ruby4 {
@@ -445,6 +465,7 @@ h3 {
   background-color: white;
   padding: 10px;
   color: #36b37e;
+  border-radius: 10px;
 }
 
 .ruby5 {
@@ -453,12 +474,23 @@ h3 {
   background-color: white;
   padding: 10px;
   color: #36b37e;
+  border-radius: 10px;
+}
+
+.css6 {
+  background-color: white;
+  padding: 10px;
+  color: #36b37e;
+  border-radius: 10px;
+  width: 85px;
 }
 
 .css1 {
   background-color: white;
   padding: 10px;
   color: #36b37e;
+  border-radius: 10px;
+  width: 40px;
 }
 
 .terminal1 {
@@ -468,18 +500,21 @@ h3 {
   padding: 10px;
   color: #36b37e;
   font-family: init, sans-serif;
+  border-radius: 10px;
 }
 
 .css0 {
   background-color: #ebf0ee;
   padding: 10px;
   color: #3a4a42;
+  border-radius: 10px;
 }
 
 .java0 {
   background-color: #ebf0ee;
   padding: 10px;
   color: #3a4a42;
+  border-radius: 10px;
 }
 
 .html0 {
@@ -488,6 +523,7 @@ h3 {
   margin-right: 10px;
   white-space: pre-line;
   color: #3a4a42;
+  border-radius: 10px;
 }
 
 .selenium1 {
@@ -495,6 +531,7 @@ h3 {
   padding: 10px;
   margin-right: 10px;
   color: #36b37e;
+  border-radius: 10px;
 }
 
 .ul0 {
