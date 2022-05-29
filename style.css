@@ -106,6 +106,13 @@ ul {
   list-style: none;
 }
 
+.disabled {
+  margin-top: -60px;
+  margin-left: 110px;
+  margin-right: -80px;
+  height: 10px;
+}
+
 .work {
   margin-top: -60px;
   margin-left: 200px;
@@ -135,7 +142,6 @@ ul {
   width: 100%;
   left: 0;
   top: 0;
-  margin-left: -138px;
   border-radius: nullpx;
   font-family: Inter, sans-serif;
   font-size: 40px;
@@ -143,6 +149,9 @@ ul {
   line-height: 52px;
   letter-spacing: 0;
   text-align: center;
+  margin-top: 0;
+  margin-left: -40px;
+  margin-right: 0;
 }
 
 .subtittle3 {
@@ -313,6 +322,8 @@ h3 {
   grid-template-rows: repeat(6, 433px);
   grid-template-columns: repeat(2, 300px);
   padding-left: 35px;
+  margin-bottom: 100px;
+  border-radius: 1px 0 3px 4px;
 }
 
 .card2 {
@@ -329,6 +340,7 @@ h3 {
 .blank {
   display: flex;
   background-color: #ebf0ee;
+  border-radius: 10px;
   height: 210px;
   width: 100%;
 }
@@ -338,7 +350,8 @@ h3 {
   background-color: #ebf0ee;
   height: 352px;
   width: 100%;
-  outline: 1px solid #d0d9d4;
+  border: 1px solid #d0d9d4;
+  border-radius: 10px;
   margin-bottom: -50px;
 }
 
@@ -346,7 +359,9 @@ h3 {
   display: flex;
   align-items: center;
   font-family: Inter, sans-serif;
-  padding-left: 60px;
+  font-weight: 600;
+  font-size: 24px;
+  padding-left: 50px;
   margin-top: 170px;
   margin-bottom: -50px;
   color: #3a4a42;
@@ -413,6 +428,7 @@ h3 {
   margin-left: -33px;
   background-color: #ebf0ee;
   padding: 10px;
+  color: #3a4a42;
 }
 
 .ruby3 {
@@ -457,11 +473,13 @@ h3 {
 .css0 {
   background-color: #ebf0ee;
   padding: 10px;
+  color: #3a4a42;
 }
 
 .java0 {
   background-color: #ebf0ee;
   padding: 10px;
+  color: #3a4a42;
 }
 
 .html0 {
@@ -469,6 +487,7 @@ h3 {
   padding: 10px;
   margin-right: 10px;
   white-space: pre-line;
+  color: #3a4a42;
 }
 
 .selenium1 {
@@ -506,7 +525,8 @@ h3 {
 .cards1 {
   display: flex;
   flex-wrap: wrap;
-  outline: 1px solid #d0d9d4;
+  border: 2px solid #d0d9d4;
+  border-radius: 10px;
 }
 
 .button1 {
@@ -528,6 +548,7 @@ h3 {
   color: white;
   background-color: #36b37f;
   margin-top: 30px;
+  border: none;
 }
 
 .button1 :hover {
@@ -553,6 +574,7 @@ h3 {
   color: white;
   margin-left: 100px;
   margin-top: -20px;
+  border: none;
 }
 
 .button2 :hover {
@@ -590,9 +612,16 @@ h3 {
   right: 0;
 }
 
-.item1 {
-  display: flex;
-  align-items: flex-end;
-  position: absolute;
-  margin-top: -360px;
+.background1 {
+  background-image: url(images/item1.png);
+  height: 400px;
+  background-repeat: no-repeat;
+  background-position-y: center;
+}
+
+.background2 {
+  background-image: url(images/item2.png);
+  height: 150px;
+  background-repeat: no-repeat;
+  background-position-x: right;
 }
