@@ -415,19 +415,6 @@ h3 {
   letter-spacing: 0.03em;
 }
 
-.ul3 {
-  display: flex;
-  width: 100%;
-  gap: 5px;
-  margin-left: 5px;
-  margin-right: -55px;
-  font-family: Inter, sans-serif;
-  font-size: 12px;
-  font-weight: 600;
-  line-height: 16px;
-  letter-spacing: 0.03em;
-}
-
 .ul2 {
   display: flex;
   width: 100%;
