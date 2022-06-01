@@ -340,6 +340,7 @@ h3 {
   grid-template-columns: repeat(2, 300px);
   padding-left: 35px;
   padding-top: 59px;
+  margin-bottom: -1120px;
 }
 
 .blank {
@@ -361,7 +362,7 @@ h3 {
 }
 
 .cardtittle {
-  display: flex;
+    display: flex;
   align-items: center;
   font-family: Inter, sans-serif;
   font-weight: 600;
@@ -754,4 +755,7 @@ h3 {
   font-family: inter, sans-serif;
   height: 189px;
   color: #42526e;
+<<<<<<< HEAD
 }
+=======
+>>>>>>> 5427018653e75c94b2e17ef0938db2908dd1ba8d
